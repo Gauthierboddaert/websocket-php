@@ -25,6 +25,8 @@ class WebSocketLauncherCommand extends Command
             8081
         );
 
+        dd($server);
+
         $server->run();
 
         return Command::SUCCESS;
