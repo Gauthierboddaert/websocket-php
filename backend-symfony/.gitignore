@@ -1,2 +1,6 @@
-./vendor/**
-./var/**
+# Ignorer le répertoire vendor
+/vendor/
+
+# Ignorer les fichiers de cache
+/var/cache/
+/var/log/
